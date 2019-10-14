@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<title> Eylül Önem / 2018280058 </title>
+<head>
+<script>
+
+function topla(){
+
+var a = document.getElementById("txtA").value;
+var b = document.getElementById("txtB").value;
+var c;
+c= Number(a)+Number(b);
+
+
+return alert(c);
+
+}
+
+
+
+function degistir(){
+var d = document.getElementById("txtD").value;
+var e = document.getElementById("txtE").value;
+var x;
+x= d+e;
+
+return alert(x);
+}
+
+
+</script>
+
+</head>
+<body>
+
+<h2> Eylül Önem / 2018280058 </h2>
+
+<label for="id1">Metin kutusu 1</label>
+<input id="txtA" type="text" /> <br><br>
+
+<label for="id2">Metin kutusu 2</label>
+<input id="txtB" type="text" /> <br/><br>
+
+
+<input type="button" value="Topla" onclick="topla()"/><br><br>
+
+<label for="id3">Metin kutusu 3</label>
+<input id='txtD' type='text' /> <br>
+<br>
+<label for="id4">Metin kutusu 4</label>
+<input id='txtE' type='text' /> <br/><br>
+
+<input type="button" value= "Yapıştır" onclick="degistir();"/><br><br>
+
+ 
+
+</body>
+</html>
